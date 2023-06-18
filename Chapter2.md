@@ -5,6 +5,13 @@
 NOME
 git - o monitor de conteúdo estúpido
 
+RESUMO
+git [--version] [--help] [-C <caminho>] [-c <nome>=<valor>]
+    [--exec-path[=<caminho>]] [--html-path] [--man-path] [--info-path]
+    [-p|--paginate|-P|--no-pager] [--no-replace-objects] [--bare]
+    [--git-dir=<caminho>] [--work-tree=<caminho>] [--namespace=<nome>]
+    [--super-prefix=<caminho>]
+    <comando> [<args>]
 DESCRIÇÃO
 O Git é um sistema de controle de revisão distribuído, rápido, escalável e com um conjunto de comandos incomumente rico que oferece operações de alto nível e acesso completo aos seus recursos.
 
