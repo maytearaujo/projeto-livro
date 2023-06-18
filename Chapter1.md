@@ -37,7 +37,6 @@ Esta opção afeta as opções que esperam o nome do caminho, como --git-dir e w
 git --git-dir=a.git --work-tree=b -C c status
 git --git-dir=c/a.git --work-tree=c/b status
 -c <nome>=<valor>
-Encaminhe um parâmetro de configuração para o comando O valor informado substituirá os valores dos arquivos de configuração. Um <nome> é esperado no mesmo formato listado pelo comando git config (sub chaves separadas por pontos).
 
 Note que ao omitir = no comando git -c foo.bar ... é permitido e define foo.bar com o valor booleano verdadeiro (assim como`[foo]bar` faria em um arquivo de configuração). Incluindo os iguais, porém com um valor vazio (como git -c foo.bar= ...) define foo.bar para a string vazia que git config --type=bool converterá para false.
 

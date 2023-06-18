@@ -12,8 +12,7 @@ git [--version] [--help] [-C <caminho>] [-c <nome>=<valor>]
     [--git-dir=<caminho>] [--work-tree=<caminho>] [--namespace=<nome>]
     [--super-prefix=<caminho>]
     <comando> [<args>]
-DESCRIÇÃO
-O Git é um sistema de controle de revisão distribuído, rápido, escalável e com um conjunto de comandos incomumente rico que oferece operações de alto nível e acesso completo aos seus recursos.
+
 
 Para começar, consulte gittutorial[7] e depois giteveryday[7] para conhecer um conjunto mínimo de comandos uteis. Para uma introdução mais aprofundada acesse o Manual do Usuário do Git.
 
